@@ -115,7 +115,7 @@ const Home = () => {
             <ListItem>
               <Link href="https://wa.me/5549999241385" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
-                  @whats luiz
+                  @whats.luiz
                 </Button>
               </Link>
             </ListItem>
