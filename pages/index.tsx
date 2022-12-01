@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 import React from 'react';
 import NextLink from 'next/link';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5';
+import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsApp } from 'react-icons/io5';
 import {
   Container,
   Box,
@@ -109,6 +109,13 @@ const Home = () => {
               <Link href="https://twitter.com/luiz_gzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
                   @luiz_gzanoni
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://wa.me/5549999241385" target="_blank" rel="noreferrer">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoWhatsApp} />}>
+                  @whats luiz
                 </Button>
               </Link>
             </ListItem>
