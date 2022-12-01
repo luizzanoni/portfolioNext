@@ -27,7 +27,7 @@ const Home = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center" mb={6}>
-          A full-stack developer based in India!
+          A full-stack developer based in Brazil!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -53,7 +53,7 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Luiz Gustavo Zanoni? Who?
+            Luiz Gustavo? Who?
           </Heading>
           <Paragraph>
             He likes to devour books every morning and then sing in the evening. Amazingly he figured out that he had a
@@ -101,7 +101,7 @@ const Home = () => {
             <ListItem>
               <Link href="https://github.com/luizzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
-                  @LuizGustavoZanoni
+                  @luizzanoni
                 </Button>
               </Link>
             </ListItem>
