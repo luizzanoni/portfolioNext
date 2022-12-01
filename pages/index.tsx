@@ -53,7 +53,7 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            frostzt? Who?
+            Luiz Gustavo Zanoni? Who?
           </Heading>
           <Paragraph>
             He likes to devour books every morning and then sing in the evening. Amazingly he figured out that he had a
@@ -85,7 +85,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2016 to present</BioYear>
-            Started working on frostzt!
+            Started working on Luiz Gustavo!
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>
@@ -99,16 +99,16 @@ const Home = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/frostzt" target="_blank" rel="noreferrer">
+              <Link href="https://github.com/luizzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
-                  @frostzt
+                  @LuizGustavoZanoni
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/souravsrawat" target="_blank" rel="noreferrer">
+              <Link href="https://twitter.com/luiz_gzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
-                  @souravsrawat
+                  @luiz_gzanoni
                 </Button>
               </Link>
             </ListItem>

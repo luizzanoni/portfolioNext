@@ -1,5 +1,5 @@
 {
-  "name": "frostzt",
+  "name": "luizzanoni",
   "version": "1.0.0",
   "description": "Portfolio site",
   "main": "index.js",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frostzt/frostzt.git"
+    "url": "git+https://github.com/luizzanoni"
   },
   "keywords": [
     "portfolio",
     "3d"
   ],
-  "author": "frostzt",
+  "author": "luizzanoni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frostzt/frostzt/issues"
+    "url": "https://github.com/luizzanoni/luizzanoni/issues"
   },
-  "homepage": "https://github.com/frostzt/frostzt#readme",
+  "homepage": "https://github.com/luizzanoni/luizzanoni#readme",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.3",

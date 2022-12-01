@@ -28,7 +28,7 @@ const Logo = () => {
         <LogoBox>
           <Image src={image} width={20} height={20} alt="logo" />
           <Text color={useColorModeValue('grey.800', 'whiteAlpha.900')} fontFamily="Inter" fontWeight="bold" ml={3}>
-            frostzt
+            Luiz Gustavo Zanoni
           </Text>
         </LogoBox>
       </a>

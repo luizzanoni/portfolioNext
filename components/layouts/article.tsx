@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
       <Fragment>
         {title && (
           <Head>
-            <title>{title} - frostzt</title>
+            <title>{title} - Luiz Gustavo Zanoni</title>
           </Head>
         )}
         {children}
