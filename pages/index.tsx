@@ -78,7 +78,8 @@ const Home = () => {
 
           <BioSection>
             <BioYear>M8 Sistemas</BioYear>
-            <br></br>Born in Sagar, Madhya Pradesh, India.
+            <br></br>Setembro 2022 - Presente
+            <br></br>Setembro 2022 - Presente
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
