@@ -83,21 +83,6 @@ const Home = () => {
           </BioSection>
 
           <BioSection>
-            <BioYear>Unimed Chapecó</BioYear>
-              <br></br>Software Developer
-              <br></br>Junho 2020 - Setembro 2022
-              <br></br>HTML, CSS, JavaScript, React, API's
-              <br></br>
-              <br></br>Assistente de Segurança da Informação
-              <br></br>Jun 2021 - Jun 2022
-              <br></br>Encarregado de Dados "DPO" substituto. Responsável pela implementação e adequação dos processos e tecnologias para a Lei Geral de Proteção de Dados - LGPD.
-              <br></br>
-              <br></br>Técnico de suporte em TI
-              <br></br>Jun 2020 - May 2021
-              <br></br>Dar suporte aos usuários dos computadores e microinformática, atendendo aos chamados, documentando as atividades, mantendo o solicitante informando sobre o andamento da demanda.
-          </BioSection>
-
-          <BioSection>
             <BioYear>Freelancer - Web</BioYear>
               <br></br>Março 2020 - Junho 2020
               <br></br>Criação de Sistema de Gestão, sistema de autenticação, Layout e integração com API.

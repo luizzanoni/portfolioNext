@@ -17,7 +17,7 @@ const Main: React.FC<Props> = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Luiz Gustavo Zanoni - Home</title>
+        <title>Luiz Gustavo Zanoni - Dev</title>
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
