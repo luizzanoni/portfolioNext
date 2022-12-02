@@ -77,16 +77,22 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>M8 Sistemas -- Software Developer Full-Stack</BioYear>
-              Setembro 2022 - Presente
-              HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC.
+            <BioYear>2000</BioYear>
+            Born in Sagar, Madhya Pradesh, India.
           </BioSection>
-
           <BioSection>
-            <BioYear>Freelancer - Web</BioYear>
-              Março 2020 - Junho 2020
+            <BioYear>2021</BioYear>
+            Graduated in Bachelor&apos;s of Commerce with Computer Application from BT Institute of Excellence.
           </BioSection>
-
+          <BioSection>
+            <BioYear>2016 to present</BioYear>
+            Started working on Luiz Gustavo!
+          </BioSection>
+          <BioSection>
+            <BioYear>2021 to present</BioYear>
+            Looking for opportunities and working on ideas!
+          </BioSection>
+          
         </Section>
 
         <Section delay={0.3}>
@@ -101,6 +107,7 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
+            
             <ListItem>
               <Link href="https://twitter.com/luiz_gzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
@@ -108,6 +115,7 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
+
             <ListItem>
               <Link href="https://wa.me/5549999241385" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoWhatsapp} />}>
@@ -115,6 +123,15 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
+
+            <ListItem>
+              <Link href="https://www.instagram.com/luiz.gzanoni/" target="_blank" rel="noreferrer">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
+                  @luiz_gzanoni
+                </Button>
+              </Link>
+            </ListItem>
+
           </List>
         </Section>
       </Container>
