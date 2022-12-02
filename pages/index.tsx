@@ -75,9 +75,10 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Experiências Profissionais
           </Heading>
+
           <BioSection>
-          <BioYear>M8 Sistemas -- Software Developer Full-Stack</BioYear>
-            Setembro 2022 - Presente HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC
+            <BioYear>M8 Sistemas</BioYear>
+            <br></br>Born in Sagar, Madhya Pradesh, India.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
