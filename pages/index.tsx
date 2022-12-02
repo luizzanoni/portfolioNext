@@ -35,7 +35,7 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Sourav Singh Rawat
             </Heading>
-            <p>Learning-addict, Developer, Designer, and not-so-good singer</p>
+            <p>Python, HTML, CSS, dotNET, JavaScript, React, NEXT.JS, PL/SQL, ASP.NET Core, MVC</p>
           </Box>
           <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
             <Image
@@ -53,19 +53,28 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Luiz Gustavo? Who?
+            Luiz Gustavo?
           </Heading>
           <Paragraph>
-            He likes to devour books every morning and then sing in the evening. Amazingly he figured out that he had a
-            crush on computers and electronics when he completely rekked his Dad&apos;s mobile phone by flashing a wrong
-            ROM in it (SPOILER: He fixed it later). Born in India, He has a hunger for knowledge and just want to know
-            more; interests ranging from History, Biology, and most of all Mathematics. And unfortunately he
-            doesn&apos;t use Arch!
+          <br></br>
+          Nascido em:<br></br>
+          27 de Janeiro de 2000<br></br>
+          <br></br>
+          Email:<br></br>
+          dev.luizzanoni@gmail.com<br></br>
+          <br></br>
+          Entusiasmado por tecnologia e inovação, iniciei o mundo da programação em Python e desenvolvendo aplicações para facilitar o dia-a-dia.
+          Com o passar do tempo comecei a estudar Javascript e Typescript, atualmente atuo desenvolvendo interfaces web performáticas 
+          usando ReactJS, futuramente pretendo avançar como programador FullStack.<br></br>
+          <br></br>
+          Meu perfil:<br></br>
+          Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar meu nível técnico e pessoal, sou apaixonado por ensinar, 
+          então, no que eu puder ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href={AppRoutes.PROJECTS}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
-                Projects
+                Projetos
               </Button>
             </NextLink>
           </Box>
@@ -79,18 +88,21 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>Janeiro 2013 - Junho 2013</BioYear>
-            <br></br>Montagem e Manutenção de Computadores.
+            <BioYear>Montagem e Manutenção de Computadores</BioYear>
+            <br></br>Janeiro 2013 - Junho 2013
+            <br></br>Montagem e manutenção básica em computadores e impressoras.
           </BioSection>
 
           <BioSection>
-            <BioYear>Janeiro 2014 - Dezembro 2014</BioYear>
-            <br></br>Programação Básica.
+            <BioYear>Programação Básica</BioYear>
+            <br></br>Janeiro 2014 - Dezembro 2014
+            <br></br>Neste curso aprendi estruturas de dados, laços, lógica de programação com C e Java, regras de negócios, UML e requisitos funcionais.
           </BioSection>
 
           <BioSection>
-            <BioYear>Julho 2020 - Presente</BioYear>
-            <br></br>Ciências da Computação - UFFS
+            <BioYear>Ciências da Computação - UFFS</BioYear>
+            <br></br>Julho 2020 - Presente
+            <br></br>Bacharel em Ciências da Computação pela Universidade Federal da Fronteira Sul (UFFS)
           </BioSection>
         </Section>
 
