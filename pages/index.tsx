@@ -71,6 +71,31 @@ const Home = () => {
           </Box>
         </Section>
 
+        {/* Meus Cursos */}
+
+        <Section delay={0.2}>
+          <Heading as="h2" variant="section-title">
+            Cursos
+          </Heading>
+
+          <BioSection>
+            <BioYear>Janeiro 2013 - Junho 2013</BioYear>
+            <br></br>Montagem e Manutenção de Computadores.
+          </BioSection>
+
+          <BioSection>
+            <BioYear>Janeiro 2014 - Dezembro 2014</BioYear>
+            <br></br>Programação Básica.
+          </BioSection>
+
+          <BioSection>
+            <BioYear>Julho 2020 - Presente</BioYear>
+            <br></br>Ciências da Computação - UFFS
+          </BioSection>
+        </Section>
+
+        {/* Meus Trabalhos */}
+
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             Experiências Profissionais
