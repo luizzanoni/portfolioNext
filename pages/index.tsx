@@ -33,7 +33,7 @@ const Home = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Sourav Singh Rawat
+              Luiz Gustavo Zanoni
             </Heading>
             <p>Python, HTML, CSS, dotNET, JavaScript, React, NEXT.JS, PL/SQL, ASP.NET Core, MVC</p>
           </Box>
@@ -53,7 +53,7 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Luiz Gustavo?
+            Quem sou eu?
           </Heading>
           <Paragraph>
           <br></br>
