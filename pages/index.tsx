@@ -78,8 +78,8 @@ const Home = () => {
 
           <BioSection>
             <BioYear>M8 Sistemas -- Software Developer Full-Stack</BioYear>
-              <br></br>Setembro 2022 - Presente
-              <br></br>HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC.
+              Setembro 2022 - Presente
+              HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC <br></br>
           </BioSection>
 
           <BioSection>
