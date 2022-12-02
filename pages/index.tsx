@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 import React from 'react';
 import NextLink from 'next/link';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp, IoLogoInstagram } from 'react-icons/io5';
+import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5';
 import {
   Container,
   Box,
@@ -73,9 +73,24 @@ const Home = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Experiências Profissionais
+            Bio
           </Heading>
-
+          <BioSection>
+            <BioYear>2000</BioYear>
+            Born in Sagar, Madhya Pradesh, India.
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Graduated in Bachelor&apos;s of Commerce with Computer Application from BT Institute of Excellence.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016 to present</BioYear>
+            Started working on Luiz Gustavo!
+          </BioSection>
+          <BioSection>
+            <BioYear>2021 to present</BioYear>
+            Looking for opportunities and working on ideas!
+          </BioSection>
         </Section>
 
         <Section delay={0.3}>
@@ -83,7 +98,6 @@ const Home = () => {
             Contatos
           </Heading>
           <List>
-
             <ListItem>
               <Link href="https://github.com/luizzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
@@ -91,7 +105,6 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
-
             <ListItem>
               <Link href="https://twitter.com/luiz_gzanoni" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
@@ -99,7 +112,6 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
-
             <ListItem>
               <Link href="https://wa.me/5549999241385" target="_blank" rel="noreferrer">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoWhatsapp} />}>
@@ -107,15 +119,6 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
-
-            <ListItem>
-              <Link href="https://www.instagram.com/luiz.gzanoni/" target="_blank" rel="noreferrer">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
-                  @luiz_gzanoni
-                </Button>
-              </Link>
-            </ListItem>
-
           </List>
         </Section>
       </Container>
