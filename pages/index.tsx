@@ -77,9 +77,9 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>M8 Sistemas</BioYear>
+            <BioYear>M8 Sistemas - Software Developer Full-Stack</BioYear>
             <br></br>Setembro 2022 - Presente
-            <br></br>Setembro 2022 - Presente
+            <br></br>HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
