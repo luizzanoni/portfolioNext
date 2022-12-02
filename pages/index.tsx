@@ -75,27 +75,22 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Experiências Profissionais
           </Heading>
-
           <BioSection>
             <BioYear>2000</BioYear>
             Born in Sagar, Madhya Pradesh, India.
           </BioSection>
-
           <BioSection>
             <BioYear>2021</BioYear>
             Graduated in Bachelor&apos;s of Commerce with Computer Application from BT Institute of Excellence.
           </BioSection>
-          
           <BioSection>
             <BioYear>2016 to present</BioYear>
             Started working on Luiz Gustavo!
           </BioSection>
-          
           <BioSection>
             <BioYear>2021 to present</BioYear>
             Looking for opportunities and working on ideas!
           </BioSection>
-          
         </Section>
 
         <Section delay={0.3}>
