@@ -77,17 +77,21 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>2000</BioYear>
-            Born in Sagar, Madhya Pradesh, India.
+            <BioYear>M8 Sistemas -- Software Developer Full-Stack</BioYear>
+              <br></br>Setembro 2022 - Presente
+              <br></br>HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC.
           </BioSection>
+
           <BioSection>
             <BioYear>2021</BioYear>
             Graduated in Bachelor&apos;s of Commerce with Computer Application from BT Institute of Excellence.
           </BioSection>
+
           <BioSection>
             <BioYear>2016 to present</BioYear>
             Started working on Luiz Gustavo!
           </BioSection>
+
           <BioSection>
             <BioYear>2021 to present</BioYear>
             Looking for opportunities and working on ideas!
