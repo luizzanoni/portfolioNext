@@ -64,8 +64,8 @@ const Home = () => {
           dev.luizzanoni@gmail.com<br></br>
           <br></br>
           Entusiasmado por tecnologia e inovação, iniciei o mundo da programação em Python e desenvolvendo aplicações para facilitar o dia-a-dia.
-          Com o passar do tempo comecei a estudar Javascript e Typescript, atualmente atuo desenvolvendo interfaces web performáticas 
-          usando ReactJS, futuramente pretendo avançar como programador FullStack.<br></br>
+          Com o passar do tempo comecei a estudar Javascript e Typescript, atualmente atuo desenvolvendo interfaces como Back-End 
+          utilizando C# e MVC, avançando aos poucos como programador FullStack.<br></br>
           <br></br>
           Meu perfil:<br></br>
           Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar meu nível técnico e pessoal, sou apaixonado por ensinar, 
