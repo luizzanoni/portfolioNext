@@ -71,13 +71,13 @@ const Home = () => {
           Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar meu nível técnico e pessoal, sou apaixonado por ensinar, 
           então, no que eu puder ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
           </Paragraph>
-          <Box align="center" my={4}>
+          {/* <Box align="center" my={4}>
             <NextLink href={AppRoutes.PROJECTS}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
                 Projetos
               </Button>
             </NextLink>
-          </Box>
+          </Box> */}
         </Section>
 
         {/* Meus Cursos */}
