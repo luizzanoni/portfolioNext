@@ -98,6 +98,12 @@ const Home = () => {
             <br></br>Janeiro 2014 - Dezembro 2014
             <br></br>Neste curso aprendi estruturas de dados, laços, lógica de programação com C e Java, regras de negócios, UML e requisitos funcionais.
           </BioSection>
+		  
+		  <BioSection>
+            <BioYear>ASP.NET MVC 5 e dotNet (CODE21)</BioYear>
+            <br></br>Setembro 2022 - 40 Horas
+            <br></br>Neste curso aprendi como funciona a estrutura do MVC e também aprofundado meu conhecimento em dotNET.
+          </BioSection>
 
           <BioSection>
             <BioYear>Ciências da Computação - UFFS</BioYear>
@@ -114,9 +120,9 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>M8 Sistemas -- Software Developer Full-Stack</BioYear>
+            <BioYear>M8 Sistemas -  Software Developer Full-Stack</BioYear>
               <br></br>Setembro 2022 - Presente
-              <br></br>HTML, CSS, dotNET, JavaScript, React, API&apos;s, ASP.NET Core, MVC <br></br>
+              <br></br>HTML, CSS, dotNET, JavaScript, React, API&apos;s, ASP.NET Core, MVC, jQuery <br></br>
           </BioSection>
 
           <BioSection>
@@ -137,7 +143,7 @@ const Home = () => {
           <BioSection>
             <BioYear>Freelancer - Web</BioYear>
               <br></br>Março 2020 - Junho 2020
-              <br></br>Criação de Sistema de Gestão, sistema de autenticação, Layout e integração com API.
+              <br></br>Criação de Sistema de Gestão de empresas de pequeno porte, sistema de autenticação.
           </BioSection>
         </Section>
 
