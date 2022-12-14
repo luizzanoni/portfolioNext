@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
-import NextLink from 'next/link';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp, IoLogoInstagram } from 'react-icons/io5';
 import {
