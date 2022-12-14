@@ -72,11 +72,11 @@ const Home = () => {
           então, no que eu puder ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href={AppRoutes.PROJECTS}>
+            {/* <NextLink href={AppRoutes.PROJECTS}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
                 Projetos
               </Button>
-            </NextLink>
+            </NextLink> */}
           </Box>
         </Section>
 
