@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
+import NextLink from 'next/link';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp, IoLogoInstagram } from 'react-icons/io5';
 import {
@@ -70,6 +71,13 @@ const Home = () => {
           Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar meu nível técnico e pessoal, sou apaixonado por ensinar, 
           então, no que eu puder ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
           </Paragraph>
+          <Box align="center" my={4}>
+            <NextLink href={AppRoutes.PROJECTS}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
+                Projetos
+              </Button>
+            </NextLink>
+          </Box>
         </Section>
 
         {/* Meus Cursos */}
@@ -112,7 +120,8 @@ const Home = () => {
           </Heading>
 
           <BioSection>
-            <BioYear>M8 Sistemas -  Software Developer Full-Stack</BioYear>
+            <BioYear>M8 Sistemas</BioYear>
+              <br></br>Software Developer Full-Stack
               <br></br>Setembro 2022 - Presente
               <br></br>HTML, CSS, dotNET, JavaScript, React, API&apos;s, ASP.NET Core, MVC, jQuery <br></br>
           </BioSection>
@@ -120,7 +129,7 @@ const Home = () => {
           <BioSection>
             <BioYear>Unimed Chapecó</BioYear>
               <br></br>Software Developer
-              <br></br>Junho 2020 - Setembro 2022
+              <br></br>Junho 2022 - Setembro 2022
               <br></br>HTML, CSS, JavaScript, React, API&apos;s
               <br></br>
               <br></br>Assistente de Segurança da Informação
