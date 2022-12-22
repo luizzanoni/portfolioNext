@@ -17,7 +17,7 @@ import NextLink from 'next/link';
 import { HamburgerIcon } from '@chakra-ui/icons';
 
 import Logo from '../Logo/Logo';
-import LinkItem from './LinkItem';
+// import LinkItem from './LinkItem';
 import AppRoutes from '../../enums/routes.enum';
 import ThemeToggle from '../layouts/themeToggle';
 
@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = props => {
             <Logo />
           </Heading>
         </Flex>
-        <Stack
+        {/* <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -53,12 +53,10 @@ const Navbar: React.FC<NavbarProps> = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href={AppRoutes.PROJECTS} path={path}>
-            Projects
           </LinkItem>
           <LinkItem href={AppRoutes.BLOG} path={path}>
-            Blog
           </LinkItem>
-        </Stack>
+        </Stack> */}
         <Box flex={1} align="right">
           <ThemeToggle />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
