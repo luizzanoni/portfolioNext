@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
-import NextLink from 'next/link';
-import { ChevronRightIcon } from '@chakra-ui/icons';
+// import NextLink from 'next/link';
+// import { ChevronRightIcon } from '@chakra-ui/icons';
 import { IoLogoTwitter, IoLogoGithub, IoLogoWhatsapp, IoLogoInstagram } from 'react-icons/io5';
 import {
   Container,
@@ -71,13 +71,16 @@ const Home = () => {
           Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar meu nível técnico e pessoal, sou apaixonado por ensinar, 
           então, no que eu puder ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
           </Paragraph>
-          <Box align="center" my={4}>
+
+          {/* botão para ir até os projetos que já foram executados */}
+
+          {/* <Box align="center" my={4}>
             <NextLink href={AppRoutes.PROJECTS}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
                 Projetos
               </Button>
             </NextLink>
-          </Box>
+          </Box> */}
         </Section>
 
         {/* Meus Cursos */}
